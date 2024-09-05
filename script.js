@@ -6,43 +6,45 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Como você acredita que podemos combater o racismo na sociedade?",
+        enunciado: "Qual é a sua prioridade quando se trata de reduzir o impacto ambiental?",
         alternativas: [
             {
-                texto: "Participando de campanhas de conscientização e educação sobre igualdade racial.",
-                afirmacao: "afirmacao1"
+                texto: "Priorizar a reciclagem e a redução de resíduos em casa.",
+                afirmacao: "A reciclagem e a redução de resíduos são fundamentais para diminuir a quantidade de lixo e conservar recursos naturais. Escolher essa alternativa indica um foco em práticas que minimizam o impacto ambiental diretamente em sua residência."
             },
             {
-                texto: "Denunciando atos de discriminação e apoiando políticas públicas inclusivas.",
-                afirmacao: "afirmacao2"
+                texto: " Investir em tecnologias e produtos sustentáveis, como painéis solares e eletrodomésticos eficientes.",
+                afirmacao: "Investir em tecnologias sustentáveis contribui para uma maior eficiência energética e redução das emissões de carbono. Optar por essa alternativa mostra uma preocupação em adotar soluções de longo prazo para a sustentabilidade."
             }
            
         ]
     },
     {
-        enunciado: "Como você pode ajudar a combater a disseminação de fake news, especialmente as que perpetuam o racismo?",
+        enunciado: "Como você prefere economizar água no seu dia a dia?",
         alternativas: [
             {
-                texto: "Verificando a veracidade das informações antes de compartilhar qualquer conteúdo, especialmente sobre temas sensíveis como racismo.",
-                afirmacao: "afirmacao3"
+                texto: "Implementar práticas como tomar banhos mais curtos e consertar vazamentos.",
+                afirmacao: "Adotar práticas como tomar banhos mais curtos e corrigir vazamentos ajuda significativamente a reduzir o consumo de água e evita o desperdício. Escolher essa alternativa reflete um esforço para fazer ajustes diretos no seu comportamento diário."
             },
             {
-                texto: "Educando amigos e familiares sobre os perigos das fake news e incentivando-os a não compartilhar conteúdos falsos que perpetuam o racismo.",
-                afirmacao: "afirmacao4"
+                texto: "Utilizar sistemas de coleta de água da chuva e instalar dispositivos de economia de água.",
+                afirmacao: "Sistemas de coleta de água da chuva e dispositivos de economia são soluções tecnológicas que ajudam a reduzir o consumo de água e a utilizar recursos de forma mais eficiente. Optar por essa alternativa demonstra um interesse em soluções mais estruturais para a conservação da água."
             }
            
         ]
     },
     {
-        enunciado: "Como podemos incentivar o uso de energia solar e outras formas de energia limpa, especialmente em comunidades carentes?",
+        enunciado: "Qual é sua abordagem para reduzir a emissão de gases de efeito estufa?",
         alternativas: [
             {
-                texto: "Defendendo políticas públicas que subsidiem a energia solar para famílias de baixa renda.",
-                afirmacao:"afirmacao5"
+                texto: "Optar por transporte público ou modos de transporte sustentáveis, como bicicleta.",
+                afirmacao:"Usar transporte público ou modos de transporte não poluentes, como a bicicleta, é uma forma eficaz de reduzir a emissão de gases de efeito estufa e minimizar sua pegada de carbono. Escolher essa alternativa mostra um esforço em reduzir o impacto ambiental pessoal através de escolhas de transporte."
+                
             },
             {
-                texto: "Promovendo a instalação de painéis solares em escolas e centros comunitários de comunidades marginalizadas.",
-                afirmacao:"afirmacao6"
+                texto: "Investir em veículos elétricos e apoiar políticas que promovam energia limpa.",
+                afirmacao:"Veículos elétricos e apoio a políticas de energia limpa ajudam a reduzir as emissões de gases de efeito estufa e promovem um futuro mais sustentável. Optar por essa alternativa reflete uma preocupação com soluções mais abrangentes e a longo prazo para a proteção do meio ambiente.
+"
             }
         ]
     }
